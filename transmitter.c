@@ -4,7 +4,7 @@
 void portInit(void)
 {
 	DDRD &= ~_BV(2);			//nIRQ input to indicate previous transmission ended.
-	DDRA |= _BV(4) | _BV(5) |  _BV(7);	//Put transmitter's SPI interface on port D.
+	DDRA |= _BV(4) | _BV(5) |  _BV(7);	//Put transmitter's SPI interface on port A.
 }
 
 uint16_t writeCommand(uint16_t cmd)
