@@ -8,7 +8,7 @@ int main()
 	DDRD |= _BV(4);
 	DDRD |= _BV(5);		
 	DDRD |= _BV(6);
-	uint8_t buffer[8];	//Buffer to store data.
+	uint8_t buffer[16];	//Buffer to store data.
 	uint8_t i;		//Loop variable.
 
 	init_spi_slave();	//Initialise the device as the slave.
