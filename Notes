@@ -1,0 +1,3 @@
+Currently, this code SHOULD send bytes over SPI from a slave microcontroller to a master microcontroller, then SPI to the transmitter and then be received on a 3rd device (an Arduino). It sometimes does this. And sometimes it doesn't and I don't know why.
+
+Code needs some sourcing in the files, will be added soon. It's either from one of the RFM12B programming guides or from a programming lab last year.
