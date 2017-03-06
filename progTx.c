@@ -5,7 +5,7 @@
 int main(void) 
 {
 	uint8_t i, data;
-	uint8_t buffer[8];
+	uint8_t buffer[16];
 
 	_delay_ms(50);
 
